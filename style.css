@@ -1,0 +1,83 @@
+
+
+body{
+    background-color: #FFD89C;
+    margin: 0%;
+    font-family: 'Indie Flower';
+    font-size: 2rem;
+    transition: background-color 2s ease;
+}
+
+
+.container{
+
+    display: flex;
+ 
+
+    height: 100vh;
+    width: 100vw; 
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  
+
+}
+
+.Text {
+   
+    
+    
+    height: 300px;
+    width: 320px;
+    overflow: visible;
+    color: rgba(0, 0, 0, 1);
+    transition-property: opacity;
+    text-align: center;
+    z-index: 2;
+
+    
+    
+}
+
+
+
+input[type=text] {
+
+    background-color: #FFD89C;
+    text-align: center;
+
+    font-size: 25px;
+    font-family: 'Indie Flower';
+    outline: none;
+    border-color: black;
+    border-width: 0 0 5px;
+    border-style: dashed;
+    
+}
+
+.Name {
+    z-index: 3;
+    
+}
+
+.Img{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    
+
+} 
+
+
+
+
+
+
+
+
+
